@@ -21,8 +21,8 @@ header {
   justify-content: center;
   justify-content: space-between;
   padding: 24px;
-  /* position: fixed; */
-  /* top: 0;
+  /* position: fixed;
+  top: 0;
   z-index: 1px; */
 }
 .logo {
@@ -139,7 +139,7 @@ header {
   justify-content: space-between;
   height: 648px;
   width: 1110px;
-  padding-top: 90px;
+  padding-top: 150px;
 }
 .esquerda {
   text-align: left;
@@ -150,7 +150,7 @@ header {
 #diferente_text {
   color: #8053ff;
 }
-#diferente_text_lista{
+#diferente_text_lista {
   color: #8053ff;
   font-weight: bold;
 }
@@ -175,16 +175,19 @@ header {
   font-size: 16px;
   font-weight: 500;
 }
-.projects{
+.projects {
   width: 1110px;
 }
-.cabecalho__text{
+.investors {
+  margin-top: 150px;
+}
+.cabecalho__text {
   display: flex;
   flex-direction: column;
   gap: 12px;
   text-align: start;
 }
-.cabecalho__text h1{
+.cabecalho__text h1 {
   font-size: 52px;
   font-weight: bold;
 }
@@ -199,9 +202,8 @@ header {
   padding: 0;
   margin-top: 1em;
   list-style: none;
- 
 }
-.custom-col{
+.custom-col {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -217,13 +219,43 @@ header {
   font-size: 16px;
   font-weight: 500;
 }
-.text-col h3{
-  color: #23155B;
+.text-col h3 {
+  color: #23155b;
 }
-.text-col p{
-  color: #928CAB;
+.text-col p {
+  color: #928cab;
   font-weight: 800;
 }
-.buttons{
+.buttons {
+  display: flex;
+  gap: 12px;
   margin-top: 3em;
+}
+.section_men{
+  margin-top: -150px;
+  margin-bottom: 150px;
+}
+.men {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 150px; */
+}
+.esquerda {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.imagem_men img {
+  height: 75vh;
+  border-radius: 0 20% 20% 0;
+}
+.direita {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 90px;
+}
+.direita p {
+  padding-top: 30px;
 }
